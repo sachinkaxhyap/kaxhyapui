@@ -1,110 +1,98 @@
 # KaxhyapUI
 
-> ⚠️ **Beta**  
+> **Beta**  
 > KaxhyapUI is currently in beta. APIs are not frozen and may change before v1.0.0.
 
-**KaxhyapUI** is an open-source **SwiftUI components library** designed for Apple’s **Liquid Glass design language**, targeting **iOS 26 and macOS 26**.
+**KaxhyapUI** is an open-source SwiftUI UI toolkit that fills gaps in SwiftUI by providing components, extensions, and utilities that complement the standard library and make development faster and more enjoyable.
 
-The library provides **modern, reusable SwiftUI components** built using the latest system APIs, intentionally avoiding legacy UI patterns and backward compatibility.
-
----
-
-## ✨ Features
-
--  Liquid Glass–inspired UI components
--  Reusable, production-ready SwiftUI views
--  Built for **iOS 26+ and macOS 26+** (Support for tvOS, VisionOS and WatchOS is coming soon.)
--  SwiftUI-only public APIs
--  Distributed via Swift Package Manager
--  Beta — rapid iteration and evolving APIs
+Early versions focus on practical UI components and helpers. Future releases will also introduce Liquid Glass inspired UI built for Apple’s evolving design direction.
 
 ---
 
-## 🎨 Design Philosophy
+## Features
 
-KaxhyapUI is built around and for Apple’s next-generation **Liquid Glass Design**.
-
-This library is **future-facing by design**.  
-Support for older operating systems and flat design paradigms is intentionally excluded.
-
----
-
-## 📱 Platform Support
-
-- ✅ iOS 26+
-- ✅ macOS 26+
-- ❌ Legacy iOS or macOS versions
-- ❌ UIKit-first or hybrid UI APIs
+- SwiftUI components that streamline common UI needs
+- Reusable, modular view building blocks
+- Practical API utilities and extensions
+- Built using modern system APIs without legacy compatibility
+- Distributed via Swift Package Manager
+- Beta – APIs may evolve rapidly based on feedback
 
 ---
 
-## 📦 Installation
+## Platform Support
 
-Add KaxhyapUI using **Swift Package Manager**:
+- iOS 17+
+- macOS 15+
+- tvOS, visionOS, and watchOS coming in a future stable release
+- No support for older OS versions as of now
+
+---
+
+## Installation
+
+Add KaxhyapUI to your project using Swift Package Manager:
+
 `https://github.com/sachinkaxhyap/kaxhyapui.git`
 
 ---
 
-## 📚 Documentation
+## Documentation
 
-Complete documentation, component guides, and API references are available at:
+Guides, usage instructions, and examples are available at:
 
-👉 **https://docs.kaxhyapui.kaxhyap.com**
+https://docs.kaxhyapui.kaxhyap.com
 
-All usage examples and implementation details are maintained separately from this repository.
-
----
-
-## 🧪 Status
-
-- 🧪 **Beta**
-- ⚠️ APIs may change without notice
-- ✅ Actively developed
-- 🎯 Quality-first, component-driven approach
+Documentation is maintained outside this repository.
 
 ---
 
-## 🔮 Roadmap
+## Status
 
-Planned work includes:
-
-- Liquid Glass buttons
-- Toolbar
-- Tabs
-- Bottom sheets
-- Reusable Screens
-- TextFields
-- Loading and skeleton states
-- Navigation and layout helpers
-
-API stability and long-term support will begin with **v1.0.0**.
+- **Beta**
+- APIs may change before v1.0.0
+- In active development
 
 ---
 
-## 🔍 Keywords & Search Focus
+## Roadmap
 
-KaxhyapUI is relevant for developers searching for:
+Planned additions include:
 
-- Liquid Glass SwiftUI components
-- iOS 26 SwiftUI UI library
-- macOS 26 SwiftUI components
-- Modern SwiftUI design system
-- Glass UI SwiftUI
-- Next-generation Apple UI components
-- SwiftUI reusable components library
-- Liquid Glass Design Library
+- Liquid Glass components
+- Buttons, toolbars, and tab UI
+- Bottom sheet and reusable screen templates
+- Loading and skeleton state utilities
+- Async helpers
+- Text fields and form components
+- Navigation/layout helpers
+
+Stability and API guarantees will come with v1.0.0.
 
 ---
 
-## 🤝 Contributing
+## Keywords
 
-Contributions, ideas, and discussions are welcome.
+Relevant for searches such as:
 
-Please follow these guidelines:
-- Keep APIs minimal and intentional
+- SwiftUI UI components
+- Missing SwiftUI utilities
+- iOS 17 SwiftUI UI toolkit
+- macOS SwiftUI components
+- Future Liquid Glass UI
+- Reusable SwiftUI component library
+
+---
+
+## Contributing
+
+We welcome discussions, issues, and contributions.
+
+Please:
+- Keep APIs small, focused, and purposeful
 - Prefer composition over configuration
 - Avoid unnecessary abstractions
-- Follow modern SwiftUI best practices
+- Follow modern SwiftUI patterns and system conventions
 
 ---
 
@@ -116,4 +104,4 @@ MIT License
 
 ## ⭐️ Support
 
-If you find KaxhyapUI useful, consider starring the repository to support its development.
+If you find KaxhyapUI useful, consider starring the repository to support ongoing development.
