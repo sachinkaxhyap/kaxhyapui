@@ -7,8 +7,8 @@ let package = Package(
     name: "KaxhyapUI",
     
     platforms: [
-        .iOS(.v26),
-        .macOS(.v26)
+        .iOS(.v17),
+        .macOS(.v15)
     ],
     
     products: [
